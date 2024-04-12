@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://khulnasoft.github.io/dockerswarm"><img src="https://khulnasoft.github.io/dockerswarm/img/logo-light-blue-vectors.svg" alt="khulnasoft.github.io/dockerswarm"></a>
+  <a href="https://khulnasoft.github.io/dockerswarm"><img src="https://khulnasoft.github.io/dockerswarm/img/logo-light-blue-vectors.svg" alt="dockerswarm"></a>
 </p>
 
 ## Deprecation Warning 🚨
