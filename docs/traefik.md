@@ -4,7 +4,7 @@
 
 This guide is updated for Traefik version 2 and version 3. ✨
 
-If you are looking for the previous guides for Traefik version 1, check them in <a href="https://khulnasoft.github.io/dockerswarm/traefik-v1/" class="external-link" target="_blank">khulnasoft.github.io/dockerswarm/traefik-v1/</a>.
+If you are looking for the previous guides for Traefik version 1, check them in <a href="https://dockerswarm.khulnasoft.com/traefik-v1/" class="external-link" target="_blank">DockerSwarm.rocks/traefik-v1/</a>.
 Using Traefik 3 is only one line difference in the YAML used to deploy Traefik, and is detailed below.
 
 /// note
@@ -19,7 +19,7 @@ But for new projects, continue here. 🚀
 
 ## Intro
 
-So, you have a **Docker Swarm mode** cluster set up as described in <a href="https://khulnasoft.github.io/dockerswarm" target="_blank">khulnasoft.github.io/dockerswarm</a>.
+So, you have a **Docker Swarm mode** cluster set up as described in <a href="https://dockerswarm.khulnasoft.com" target="_blank">DockerSwarm.rocks</a>.
 
 Now you can add a main <a href="https://traefik.io/" target="_blank">**Traefik**</a> load balancer/proxy to:
 
@@ -37,7 +37,7 @@ These ideas, techniques, and tools would also apply to other cluster orchestrato
 
 The guide includes how to expose the internal Traefik web UI dashboard through the same Traefik load balancer, using a secure HTTPS certificate and HTTP Basic Auth.
 
-<img src="https://khulnasoft.github.io/dockerswarm/img/traefik-screenshot.webp">
+<img src="https://dockerswarm.khulnasoft.com/img/traefik-screenshot.webp">
 
 ## How it works
 
@@ -123,13 +123,13 @@ $apr1$89eqM5Ro$CxaFELthUKV21DpI3UTQO.
 * Download the file `traefik.yml` for Traefik v2:
 
 ```bash
-curl -L khulnasoft.github.io/dockerswarm/traefik.yml -o traefik.yml
+curl -L dockerswarm.khulnasoft.com/traefik.yml -o traefik.yml
 ```
 
 or `traefik-v3.yml` for Traefik 3
 
 ```bash
-curl -L khulnasoft.github.io/dockerswarm/traefik-v3.yml -o traefik.yml
+curl -L dockerswarm.khulnasoft.com/traefik-v3.yml -o traefik.yml
 ```
 
 * ...or create it manually, for example, using `nano`:
@@ -241,7 +241,7 @@ need to be:
 You can use all the same instructions above, downloading the host-mode file:
 
 ```bash
-curl -L khulnasoft.github.io/dockerswarm/traefik-host.yml -o traefik-host.yml
+curl -L dockerswarm.khulnasoft.com/traefik-host.yml -o traefik-host.yml
 ```
 
 Or alternatively, copying it directly:
@@ -258,7 +258,7 @@ docker stack deploy -c traefik-host.yml traefik
 
 ## Distributed Let's Encrypt
 
-There was a guide in khulnasoft.github.io/dockerswarm for setting up Traefik with Consul to store the Let's Encrypt certificates in a distributed way.
+There was a guide in DockerSwarm.rocks for setting up Traefik with Consul to store the Let's Encrypt certificates in a distributed way.
 
 Nevertheless, that technique was fragile and error prone. Because of that, the Traefik team disabled that functionality in Traefik version 2.
 

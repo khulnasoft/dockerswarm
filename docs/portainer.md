@@ -2,11 +2,11 @@
 
 <a href="https://github.com/portainer/portainer" target="_blank">Portainer</a> is a web UI (user interface) that allows you to see the state of your Docker services in a Docker Swarm mode cluster and manage it.
 
-Follow this guide to integrate it in your Docker Swarm mode cluster deployed as described in <a href="https://khulnasoft.github.io/dockerswarm" target="_blank">khulnasoft.github.io/dockerswarm</a> with a global Traefik HTTPS proxy.
+Follow this guide to integrate it in your Docker Swarm mode cluster deployed as described in <a href="https://dockerswarm.khulnasoft.com" target="_blank">DockerSwarm.rocks</a> with a global Traefik HTTPS proxy.
 
 Here's one of the screens:
 
-<img src="https://khulnasoft.github.io/dockerswarm/img/portainer.png">
+<img src="https://dockerswarm.khulnasoft.com/img/portainer.png">
 
 ## Preparation
 
@@ -37,7 +37,7 @@ docker node update --label-add portainer.portainer-data=true $NODE_ID
 * Download the file `portainer.yml`:
 
 ```bash
-curl -L khulnasoft.github.io/dockerswarm/portainer.yml -o portainer.yml
+curl -L dockerswarm.khulnasoft.com/portainer.yml -o portainer.yml
 ```
 
 * ...or create it manually, for example, using `nano`:
@@ -112,4 +112,4 @@ docker service update portainer_portainer --force
 
 ## References
 
-This guide on Portainer is adapted from the <a href="http://portainer.readthedocs.io/en/stable/agent.html" target="_blank">official Portainer documentation for Docker Swarm mode clusters</a>, adding deployment restrictions to make sure the same volume and database is always used and to enable HTTPS via Traefik, using the same ideas from <a href="https://khulnasoft.github.io/dockerswarm" target="_blank">khulnasoft.github.io/dockerswarm</a>.
+This guide on Portainer is adapted from the <a href="http://portainer.readthedocs.io/en/stable/agent.html" target="_blank">official Portainer documentation for Docker Swarm mode clusters</a>, adding deployment restrictions to make sure the same volume and database is always used and to enable HTTPS via Traefik, using the same ideas from <a href="https://dockerswarm.khulnasoft.com" target="_blank">DockerSwarm.rocks</a>.

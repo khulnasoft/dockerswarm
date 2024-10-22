@@ -70,7 +70,7 @@ GitLab CI is controlled using a `.gitlab-ci.yml` file that lives in your same co
 
 To learn more about it, you can check <a href="https://about.gitlab.com/product/continuous-integration/" target="_blank">GitLab CI's official documentation</a>.
 
-If you have a Docker Swarm mode cluster with a main Traefik proxy set up using the ideas from <a href="https://khulnasoft.github.io/dockerswarm" target="_blank">khulnasoft.github.io/dockerswarm</a>, your `.gitlab-ci.yml` file could look like:
+If you have a Docker Swarm mode cluster with a main Traefik proxy set up using the ideas from <a href="https://dockerswarm.khulnasoft.com" target="_blank">DockerSwarm.rocks</a>, your `.gitlab-ci.yml` file could look like:
 
 ```YAML
 image: khulnasoft/docker-with-compose
@@ -97,4 +97,4 @@ deploy-prod:
     - master
 ```
 
-To see more complete examples, check the <a href="https://khulnasoft.github.io/dockerswarm/project-generators/" target="_blank">Project Generators at khulnasoft.github.io/dockerswarm</a>.
+To see more complete examples, check the <a href="https://dockerswarm.khulnasoft.com/project-generators/" target="_blank">Project Generators at DockerSwarm.rocks</a>.

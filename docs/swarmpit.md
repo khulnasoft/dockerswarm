@@ -2,7 +2,7 @@
 
 <a href="https://swarmpit.io/" target="_blank">Swarmpit</a> provides a nice and clean way to manage your Docker Swarm cluster.
 
-Follow this guide to integrate it in your Docker Swarm mode cluster deployed as described in <a href="https://khulnasoft.github.io/dockerswarm" target="_blank">khulnasoft.github.io/dockerswarm</a> with a global Traefik HTTPS proxy.
+Follow this guide to integrate it in your Docker Swarm mode cluster deployed as described in <a href="https://dockerswarm.khulnasoft.com" target="_blank">DockerSwarm.rocks</a> with a global Traefik HTTPS proxy.
 
 Here's one of the screens:
 
@@ -43,7 +43,7 @@ docker node update --label-add swarmpit.influx-data=true $NODE_ID
 * Download the file `swarmpit.yml`:
 
 ```bash
-curl -L khulnasoft.github.io/dockerswarm/swarmpit.yml -o swarmpit.yml
+curl -L dockerswarm.khulnasoft.com/swarmpit.yml -o swarmpit.yml
 ```
 
 * ...or create it manually, for example, using `nano`:

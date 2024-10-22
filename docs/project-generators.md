@@ -1,6 +1,6 @@
 # Project Generators
 
-There are several project generators designed to be used in a Docker Swarm mode cluster with a main Traefik HTTPS proxy, all set up with the ideas from <a href="https://khulnasoft.github.io/dockerswarm" target="_blank">khulnasoft.github.io/dockerswarm</a>.
+There are several project generators designed to be used in a Docker Swarm mode cluster with a main Traefik HTTPS proxy, all set up with the ideas from <a href="https://dockerswarm.khulnasoft.com" target="_blank">DockerSwarm.rocks</a>.
 
 ## Full Stack ReadyAPI PostgreSQL - project generator
 

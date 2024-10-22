@@ -1,5 +1,9 @@
+<style>
+.md-content .md-typeset h1 { display: none; }
+</style>
+
 <p align="center">
-  <a href="https://khulnasoft.github.io/dockerswarm"><img src="https://khulnasoft.github.io/dockerswarm/img/logo-light-blue-vectors.svg" alt="dockerswarm"></a>
+  <a href="https://dockerswarm.khulnasoft.com"><img src="https://dockerswarm.khulnasoft.com/img/logo-light-blue-vectors.svg" alt="dockerswarm"></a>
 </p>
 
 ## Deprecation Warning 🚨
@@ -81,7 +85,7 @@ With a **one-line command**.
 
 And you can create your applications to be ready for massive scale from the beginning, starting from a single small server.
 
-## About **Docker Swarm Rocks**
+## About **Docker Swarm KhulnaSoft**
 
 This is not associated with Docker or any of the tools suggested here.
 
@@ -220,7 +224,7 @@ That's it.
 
 You have a distributed Docker swarm mode cluster set up.
 
-Check other sections in the documentation at <a href="https://khulnasoft.github.io/dockerswarm">https://khulnasoft.github.io/dockerswarm</a> to see how to set up HTTPS, you still have time, the 20 minutes are not over yet.
+Check other sections in the documentation at <a href="https://dockerswarm.khulnasoft.com">https://dockerswarm.khulnasoft.com</a> to see how to set up HTTPS, you still have time, the 20 minutes are not over yet.
 
 Then you can see how to deploy stacks, etc.
 

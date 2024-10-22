@@ -4,7 +4,7 @@
 
 This article is for Traefik version 1.
 
-There is now a guide for Traefik version 2, if you are starting a new project, you should check that one at <a href="https://khulnasoft.github.io/dockerswarm/traefik/" class="external-link" target="_blank">khulnasoft.github.io/dockerswarm/traefik/</a>.
+There is now a guide for Traefik version 2, if you are starting a new project, you should check that one at <a href="https://dockerswarm.khulnasoft.com/traefik/" class="external-link" target="_blank">DockerSwarm.rocks/traefik/</a>.
 
 /// warning
 

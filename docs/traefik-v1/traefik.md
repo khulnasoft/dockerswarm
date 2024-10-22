@@ -4,13 +4,13 @@ This article lives in:
 
 * <a href="https://medium.com/@khulnasoft/docker-swarm-mode-and-distributed-traefik-proxy-with-https-6df45d0c0fc0" target="_blank">Medium</a>
 * <a href="https://github.com/khulnasoft/medium-posts/tree/master/docker-swarm-mode-and-distributed-traefik-proxy-with-https" target="_blank">GitHub</a>
-* <a href="https://khulnasoft.github.io/dockerswarm/traefik/" target="_blank">khulnasoft.github.io/dockerswarm</a>
+* <a href="https://dockerswarm.khulnasoft.com/traefik/" target="_blank">DockerSwarm.rocks</a>
 
 ## Note about Traefik v2
 
 This article is for Traefik version 1.
 
-There is now a guide for Traefik version 2, if you are starting a new project, you should check that one at <a href="https://khulnasoft.github.io/dockerswarm/traefik/" class="external-link" target="_blank">khulnasoft.github.io/dockerswarm/traefik/</a>.
+There is now a guide for Traefik version 2, if you are starting a new project, you should check that one at <a href="https://dockerswarm.khulnasoft.com/traefik/" class="external-link" target="_blank">DockerSwarm.rocks/traefik/</a>.
 
 /// warning
 
@@ -20,7 +20,7 @@ The technique described here using Consul to store the Let's Encrypt certificate
 
 ## Intro
 
-So, you have a **Docker Swarm mode** cluster set up as described in <a href="https://khulnasoft.github.io/dockerswarm" target="_blank">khulnasoft.github.io/dockerswarm</a>.
+So, you have a **Docker Swarm mode** cluster set up as described in <a href="https://dockerswarm.khulnasoft.com" target="_blank">DockerSwarm.rocks</a>.
 
 Now you can add a main, distributed, <a href="https://traefik.io/" target="_blank">**Traefik**</a> load balancer/proxy to:
 
@@ -70,7 +70,7 @@ But if you have a single node, it will also work. And you can grow later if need
 
 The guide includes how to expose the internal Traefik web UI through the same Traefik load balancer, using a secure HTTPS certificate and HTTP Basic Auth.
 
-<img src="https://khulnasoft.github.io/dockerswarm/img/traefik-ui.png">
+<img src="https://dockerswarm.khulnasoft.com/img/traefik-ui.png">
 
 ## How it works
 
@@ -186,7 +186,7 @@ export TRAEFIK_REPLICAS=1
 * Download the file `traefik-v1.yml`:
 
 ```bash
-curl -L khulnasoft.github.io/dockerswarm/traefik-v1.yml -o traefik-v1.yml
+curl -L dockerswarm.khulnasoft.com/traefik-v1.yml -o traefik-v1.yml
 ```
 
 * ...or create it manually, for example, using `nano`:
@@ -291,7 +291,7 @@ need to be:
 You can use all the same instructions above, downloading the host-mode file:
 
 ```bash
-curl -L khulnasoft.github.io/dockerswarm/traefik-host.yml -o traefik-host.yml
+curl -L dockerswarm.khulnasoft.com/traefik-host.yml -o traefik-host.yml
 ```
 
 Or alternatively, copying it directly:
@@ -318,4 +318,4 @@ It has everything set up to be deployed in a Docker Swarm mode cluster with Trae
 
 ## Technical Details
 
-If you want to see the technical details of what each part of the Docker Compose `traefik-v1.yml` file do, check the chapter ["Traefik Proxy with HTTPS - Technical Details"](https://khulnasoft.github.io/dockerswarm/traefik-technical-details/).
+If you want to see the technical details of what each part of the Docker Compose `traefik-v1.yml` file do, check the chapter ["Traefik Proxy with HTTPS - Technical Details"](https://dockerswarm.khulnasoft.com/traefik-technical-details/).
