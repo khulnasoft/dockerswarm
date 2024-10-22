@@ -4,11 +4,11 @@ This article lives in:
 
 * <a href="https://medium.com/@khulnasoft/docker-swarm-with-swarmprom-for-real-time-monitoring-and-alerts-282da7890698" target="_blank">Medium</a>
 * <a href="https://github.com/khulnasoft/medium-posts/tree/master/docker-swarm-with-swarmprom-for-real-time-monitoring-and-alerts" target="_blank">GitHub</a>
-* <a href="https://khulnasoft.github.io/dockerswarm/swarmprom/" target="_blank">khulnasoft.github.io/dockerswarm</a>
+* <a href="https://dockerswarm.khulnasoft.com/swarmprom/" target="_blank">DockerSwarm.rocks</a>
 
 ## Intro
 
-Let's say you already set up a **<a href="https://khulnasoft.github.io/dockerswarm" target="_blank">Docker Swarm mode</a>** cluster, with a <a href="https://khulnasoft.github.io/dockerswarm/traefik/" target="_blank">Traefik HTTPS proxy</a>.
+Let's say you already set up a **<a href="https://dockerswarm.khulnasoft.com" target="_blank">Docker Swarm mode</a>** cluster, with a <a href="https://dockerswarm.khulnasoft.com/traefik/" target="_blank">Traefik HTTPS proxy</a>.
 
 Here's how you can set up <a href="https://github.com/stefanprodan/swarmprom" target="_blank">Swarmprom</a> to monitor your cluster.
 
@@ -33,7 +33,7 @@ It includes:
 
 Here's how it looks like:
 
-<img src="https://khulnasoft.github.io/dockerswarm/img/swarmprom.png">
+<img src="https://dockerswarm.khulnasoft.com/img/swarmprom.png">
 
 ## Instructions
 
@@ -114,7 +114,7 @@ export SLACK_USER=alertmanager
 * Download the file `swarmprom.yml`:
 
 ```bash
-curl -L khulnasoft.github.io/dockerswarm/swarmprom.yml -o swarmprom.yml
+curl -L dockerswarm.khulnasoft.com/swarmprom.yml -o swarmprom.yml
 ```
 
 * ...or create it manually, for example, using `nano`:

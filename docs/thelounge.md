@@ -2,7 +2,7 @@
 
 <a href="https://thelounge.chat/" target="_blank">The Lounge</a> is a self-hosted web IRC client.
 
-Follow this guide to integrate it in your Docker Swarm mode cluster deployed as described in <a href="https://khulnasoft.github.io/dockerswarm" target="_blank">khulnasoft.github.io/dockerswarm</a> with a global Traefik HTTPS proxy.
+Follow this guide to integrate it in your Docker Swarm mode cluster deployed as described in <a href="https://dockerswarm.khulnasoft.com" target="_blank">DockerSwarm.rocks</a> with a global Traefik HTTPS proxy.
 
 ## Preparation
 
@@ -33,7 +33,7 @@ docker node update --label-add thelounge.thelounge-data=true $NODE_ID
 * Download the file `thelounge.yml`:
 
 ```bash
-curl -L khulnasoft.github.io/dockerswarm/thelounge.yml -o thelounge.yml
+curl -L dockerswarm.khulnasoft.com/thelounge.yml -o thelounge.yml
 ```
 
 * ...or create it manually, for example, using `nano`:

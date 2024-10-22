@@ -29,6 +29,33 @@
 
 ### Internal
 
+* 👷 Update `labeler.yml`. PR [#198](https://github.com/khulnasoft/dockerswarm/pull/198) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update worfkow deploy-docs-notify URL. PR [#197](https://github.com/khulnasoft/dockerswarm/pull/197) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Add labeler workflow. PR [#196](https://github.com/khulnasoft/dockerswarm/pull/196) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Bump mkdocs-material from 9.5.34 to 9.5.39. PR [#194](https://github.com/khulnasoft/dockerswarm/pull/194) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-macros-plugin from 1.0.5 to 1.2.0. PR [#189](https://github.com/khulnasoft/dockerswarm/pull/189) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump khulnasoft/issue-manager from 0.5.0 to 0.5.1. PR [#188](https://github.com/khulnasoft/dockerswarm/pull/188) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Upgrade Cloudflare GitHub Action. PR [#195](https://github.com/khulnasoft/dockerswarm/pull/195) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Bump mkdocs-material from 9.5.18 to 9.5.34. PR [#187](https://github.com/khulnasoft/dockerswarm/pull/187) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump cligenius from 0.12.3 to 0.12.5. PR [#186](https://github.com/khulnasoft/dockerswarm/pull/186) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump pillow from 10.1.0 to 10.4.0. PR [#172](https://github.com/khulnasoft/dockerswarm/pull/172) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Update `issue-manager.yml`. PR [#185](https://github.com/khulnasoft/dockerswarm/pull/185) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update `build-docs.yml` GitHub Action `upload-artifact`. PR [#184](https://github.com/khulnasoft/dockerswarm/pull/184) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update `build-docs.yml` GitHub Action `upload-artifact`. PR [#183](https://github.com/khulnasoft/dockerswarm/pull/183) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update `latest-changes` GitHub Action. PR [#182](https://github.com/khulnasoft/dockerswarm/pull/182) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔨 Update docs.py script to enable dirty reload conditionally. PR [#178](https://github.com/khulnasoft/dockerswarm/pull/178) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update MkDocs previews. PR [#177](https://github.com/khulnasoft/dockerswarm/pull/177) by [@khulnasoft](https://github.com/khulnasoft).
+* 💄 Update Termynal line-height. PR [#176](https://github.com/khulnasoft/dockerswarm/pull/176) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Upgrade build docs configs. PR [#175](https://github.com/khulnasoft/dockerswarm/pull/175) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update docs-previews to handle no docs changes. PR [#174](https://github.com/khulnasoft/dockerswarm/pull/174) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Show docs deployment status and preview URLs in comment. PR [#173](https://github.com/khulnasoft/dockerswarm/pull/173) by [@khulnasoft](https://github.com/khulnasoft).
+* 🙈 Update gitignore. PR [#171](https://github.com/khulnasoft/dockerswarm/pull/171) by [@khulnasoft](https://github.com/khulnasoft).
+* ♻️ Update build docs setup. PR [#169](https://github.com/khulnasoft/dockerswarm/pull/169) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update issue-manager.yml GitHub Action permissions. PR [#167](https://github.com/khulnasoft/dockerswarm/pull/167) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Refactor GitHub Action to comment docs deployment URLs and update token. PR [#166](https://github.com/khulnasoft/dockerswarm/pull/166) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Update pillow requirement from ^9.3.0 to ^10.3.0. PR [#145](https://github.com/khulnasoft/dockerswarm/pull/145) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Update mkdocs-material requirement from 9.5.14 to 9.5.24. PR [#159](https://github.com/khulnasoft/dockerswarm/pull/159) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Update GitHub Actions to download and upload artifacts. PR [#156](https://github.com/khulnasoft/dockerswarm/pull/156) by [@khulnasoft](https://github.com/khulnasoft).
 * ⬆ Bump dawidd6/action-download-artifact from 2.28.0 to 3.1.4. PR [#141](https://github.com/khulnasoft/dockerswarm/pull/141) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Update mkdocs-material requirement from 9.5.7 to 9.5.14. PR [#140](https://github.com/khulnasoft/dockerswarm/pull/140) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump khulnasoft/issue-manager from 0.4.1 to 0.5.0. PR [#128](https://github.com/khulnasoft/dockerswarm/pull/128) by [@dependabot[bot]](https://github.com/apps/dependabot).
@@ -64,8 +91,8 @@
 
 ## 0.2.0
 
-* Add notes about starting Traefik in host mode. To be able to get the real IP from clients. Here's the updated <a href="https://khulnasoft.github.io/dockerswarm/traefik/#getting-the-client-ip" target="_blank">documentation for distributed Traefik</a> and here's the updated <a href="https://khulnasoft.github.io/dockerswarm/traefik-with-volume/#getting-the-client-ip" target="_blank">documentation for a single Traefik using a volume</a>.
+* Add notes about starting Traefik in host mode. To be able to get the real IP from clients. Here's the updated <a href="https://dockerswarm.khulnasoft.com/traefik/#getting-the-client-ip" target="_blank">documentation for distributed Traefik</a> and here's the updated <a href="https://dockerswarm.khulnasoft.com/traefik-with-volume/#getting-the-client-ip" target="_blank">documentation for a single Traefik using a volume</a>.
 
 ## 0.1.0
 
-* Add <a href="https://swarmpit.io/" target="_blank">Swarmpit</a> with deployment stack compatible with <a href="https://khulnasoft.github.io/dockerswarm" target="_blank">khulnasoft.github.io/dockerswarm</a>.
+* Add <a href="https://swarmpit.io/" target="_blank">Swarmpit</a> with deployment stack compatible with <a href="https://dockerswarm.khulnasoft.com" target="_blank">DockerSwarm.rocks</a>.
