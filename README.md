@@ -1,7 +1,3 @@
-<p align="center">
-  <a href="https://dockerswarm.khulnasoft.com"><img src="https://dockerswarm.khulnasoft.com/img/logo-light-blue-vectors.svg" alt="dockerswarm"></a>
-</p>
-
 ## Deprecation Warning 🚨
 
 **This website is deprecated.**
