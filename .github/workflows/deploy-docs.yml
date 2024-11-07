@@ -7,10 +7,7 @@ on:
       - completed
 
 permissions:
-  deployments: write
-  issues: write
-  pull-requests: write
-  statuses: write
+  contents: write  # Ensures GITHUB_TOKEN can push to the gh-pages branch
 
 jobs:
   deploy-docs:
@@ -63,7 +60,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
-          
+
       - name: Comment Deploy
         run: python ./scripts/deploy_docs_status.py
         env:
